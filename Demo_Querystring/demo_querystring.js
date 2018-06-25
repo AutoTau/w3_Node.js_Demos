@@ -1,3 +1,9 @@
+/*
+ 	Takes a query in the form of year and month, and parses out what we want and then displays it.
+	Example query: http://localhost:8080/?year=2017&month=July
+	Shows: 2017 July
+*/
+
 var http = require('http');
 //Using Node.js' url module
 var url = require('url');
